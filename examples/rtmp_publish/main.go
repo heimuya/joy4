@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/nareix/joy4/av/pktque"
-	"github.com/nareix/joy4/format"
-	"github.com/nareix/joy4/av/avutil"
-	"github.com/nareix/joy4/format/rtmp"
+	"github.com/heimuya/joy4/av/pktque"
+	"github.com/heimuya/joy4/format"
+	"github.com/heimuya/joy4/av/avutil"
+	"github.com/heimuya/joy4/format/rtmp"
 )
 
 func init() {

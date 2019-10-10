@@ -3,14 +3,14 @@ package flv
 import (
 	"bufio"
 	"fmt"
-	"github.com/nareix/joy4/utils/bits/pio"
-	"github.com/nareix/joy4/av"
-	"github.com/nareix/joy4/av/avutil"
-	"github.com/nareix/joy4/codec"
-	"github.com/nareix/joy4/codec/aacparser"
-	"github.com/nareix/joy4/codec/fake"
-	"github.com/nareix/joy4/codec/h264parser"
-	"github.com/nareix/joy4/format/flv/flvio"
+	"github.com/heimuya/joy4/utils/bits/pio"
+	"github.com/heimuya/joy4/av"
+	"github.com/heimuya/joy4/av/avutil"
+	"github.com/heimuya/joy4/codec"
+	"github.com/heimuya/joy4/codec/aacparser"
+	"github.com/heimuya/joy4/codec/fake"
+	"github.com/heimuya/joy4/codec/h264parser"
+	"github.com/heimuya/joy4/format/flv/flvio"
 	"io"
 )
 
