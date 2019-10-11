@@ -117,7 +117,7 @@ func DialTimeout(uri string, timeout time.Duration) (self *Client, err error) {
 }
 
 func Dial(uri string) (self *Client, err error) {
-	return DialTimeout(uri, 3)
+	return DialTimeout(uri, 3 * time.Second)
 }
 
 func (self *Client) allCodecDataReady() bool {
